@@ -25,14 +25,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="Admin" asp-controller="Admin"
                                 asp-action="Index">Admin</a>
                         </li>
+=======
+>>>>>>> 73b8618d7da07f8d64b53e7f3db875799e2e919e
                         <li>
                             @await Component.InvokeAsync("CategoriaMenu")
                         </li>
-                        
+
                         <li class="nav-item">
 
                             <form class="navbar-form navbar-right" asp-controller="Item" asp-action="Search"
@@ -43,6 +46,20 @@
                                         name="searchString" value="@ViewData["searchString"]">
                                 </div>
                             </form>
+                        </li>
+                        <li>
+                            @await Html.PartialAsync("_Login")
+                        </li>
+                        <li class="nav-item">
+                            @if (User.IsInRole("Admin"))
+                            {
+
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+
+                            }
+                        </li>
+                         <li>
+                            @await Component.InvokeAsync("CarrinhoResumo")
                         </li>
                     </ul>
                 </div>

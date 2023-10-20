@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Projeto.Models;
 using Projeto.Repositories.Interfaces;
@@ -5,8 +6,10 @@ using Projeto.ViewModel;
 
 namespace Projeto.Controllers
 {
+    [Authorize]
     public class CarrinhoController : Controller
     {
+        
         private readonly Carrinho _carrinho;
         private readonly IItemRepository _itemRepository;
         public CarrinhoController(Carrinho carrinho, IItemRepository itemRepository)

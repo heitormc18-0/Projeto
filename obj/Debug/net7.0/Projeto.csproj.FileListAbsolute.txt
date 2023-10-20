@@ -9,6 +9,9 @@ C:\Dev\Projeto\bin\Debug\net7.0\Projeto.pdb
 C:\Dev\Projeto\bin\Debug\net7.0\Azure.Core.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Azure.Identity.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Humanizer.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Build.dll
@@ -34,6 +37,9 @@ C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Dev\Projeto\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -270,6 +276,7 @@ C:\Dev\Projeto\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Projeto.
 C:\Dev\Projeto\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Dev\Projeto\obj\Debug\net7.0\staticwebassets.build.json
 C:\Dev\Projeto\obj\Debug\net7.0\staticwebassets.development.json
+C:\Dev\Projeto\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Dev\Projeto\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Dev\Projeto\obj\Debug\net7.0\scopedcss\bundle\Projeto.styles.css
 C:\Dev\Projeto\obj\Debug\net7.0\scopedcss\projectbundle\Projeto.bundle.scp.css
@@ -279,4 +286,3 @@ C:\Dev\Projeto\obj\Debug\net7.0\refint\Projeto.dll
 C:\Dev\Projeto\obj\Debug\net7.0\Projeto.pdb
 C:\Dev\Projeto\obj\Debug\net7.0\Projeto.genruntimeconfig.cache
 C:\Dev\Projeto\obj\Debug\net7.0\ref\Projeto.dll
-C:\Dev\Projeto\obj\Debug\net7.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
