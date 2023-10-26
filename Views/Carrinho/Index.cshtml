@@ -27,7 +27,7 @@
                         </td>
                         <td class="text-center">
                             <a asp-controller="Carrinho" asp-action="RemoverCarrinho"
-                                asp-route-movelId="@item.Item.ItemId"><img src="~/images/remover.png" width="20px"
+                                asp-route-itemId="@item.Item.ItemId"><img src="~/images/remover.png" width="20px"
                                     height="20px" />
                             </a>
                         </td>
@@ -50,8 +50,7 @@
                     Pedido</a>
 
                 &nbsp;&nbsp;&nbsp;
-                <a class="btn btn-primary" asp-controller="Item" asp-action="List">Continuar
-                    Comprando</a>
+                <a class="btn btn-primary" asp-controller="Item" asp-action="List">Continuar Comprando</a>
             </div>
         </div>
         <br />
