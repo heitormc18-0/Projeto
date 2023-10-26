@@ -46,3 +46,11 @@ button.accept-policy[b-s2go3x8bzm] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.azul[b-s2go3x8bzm]{
+background-color: #0A2D7C;
+}
+
+.fundo[b-s2go3x8bzm]{
+  background-image: url("imagens/background.png");
+}

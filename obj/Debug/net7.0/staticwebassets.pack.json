@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\LaBrasa.png",
+      "PackagePath": "staticwebassets\\imagens\\LaBrasa.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\background.png",
+      "PackagePath": "staticwebassets\\imagens\\background.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide1.jpg",
+      "PackagePath": "staticwebassets\\imagens\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide2.jpg",
+      "PackagePath": "staticwebassets\\imagens\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide3.jpg",
+      "PackagePath": "staticwebassets\\imagens\\slide3.jpg"
+    },
+    {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

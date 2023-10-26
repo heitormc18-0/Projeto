@@ -47,6 +47,10 @@ button.accept-policy[b-9j61l8gp78] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.azul[b-9j61l8gp78]{
+  background-color: #0A2D7C;
+  }
 /* _content/Projeto/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -95,4 +99,12 @@ button.accept-policy[b-s2go3x8bzm] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+
+.azul[b-s2go3x8bzm]{
+background-color: #0A2D7C;
+}
+
+.fundo[b-s2go3x8bzm]{
+  background-image: url("imagens/background.png");
 }
