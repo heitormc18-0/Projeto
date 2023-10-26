@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\imagens\\LaBrasa.png"
     },
     {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\background.png",
+      "PackagePath": "staticwebassets\\imagens\\background.png"
+    },
+    {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide1.jpg",
       "PackagePath": "staticwebassets\\imagens\\slide1.jpg"
     },

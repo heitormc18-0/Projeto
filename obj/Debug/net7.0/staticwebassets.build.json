@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mjtGcZhZF4TT2/QgA99DNYymidqKLJI27ysT/fqm6wk=",
+  "Hash": "BqwfH+eCh+7raGEJDiCZWx1seQAkqDeEUk/hR6UITV0=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\background.png",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projeto\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "imagens/background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\background.png"
     },
     {
       "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\LaBrasa.png",

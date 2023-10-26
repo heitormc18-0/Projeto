@@ -1,5 +1,5 @@
 @model Pedido
-<div class="container">
+<div class="container d-flex justify-content-top flex-column" style="min-height: 65vh;">
     <div class="jumbotron">
         <h2>@ViewBag.CheckoutCompletoMensagem</h2>
     </div>
@@ -10,7 +10,7 @@
             <p>Número do Pedido : <strong>@Model.PedidoId</strong></p>
             <table class="table">
                 <tr>
-                    <th></th>
+                    
                     <th>Quantidade</th>
                     <th>Lanche</th>
                     <th>Preço</th>
