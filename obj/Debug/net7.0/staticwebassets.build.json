@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BqwfH+eCh+7raGEJDiCZWx1seQAkqDeEUk/hR6UITV0=",
+  "Hash": "aeAqxGJLBi29tQwGtKdf5S3zoa6lJ2fBmp6UwUR4FjM=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\LaBrasa.png"
+    },
+    {
+      "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\remover.png",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projeto\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "imagens/remover.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\remover.png"
     },
     {
       "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide1.jpg",

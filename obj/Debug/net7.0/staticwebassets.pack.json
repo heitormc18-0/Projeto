@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\imagens\\background.png"
     },
     {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\remover.png",
+      "PackagePath": "staticwebassets\\imagens\\remover.png"
+    },
+    {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\slide1.jpg",
       "PackagePath": "staticwebassets\\imagens\\slide1.jpg"
     },

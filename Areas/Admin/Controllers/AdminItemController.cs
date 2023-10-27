@@ -5,13 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Projeto.Context;
 using Projeto.Models;
+using Microsoft.Data.Sqlite;
 
 namespace Projeto.Areas.Admin.Controllers
 {
-    [Authorize(Roles ="Admin")]
+    [Authorize(Roles = "Admin")]
     [Area("Admin")]
     public class AdminItemController : Controller
     {
@@ -154,18 +156,32 @@ namespace Projeto.Areas.Admin.Controllers
                 return Problem("Entity set 'AppDbContext.Itens'  is null.");
             }
             var item = await _context.Itens.FindAsync(id);
+
+
+
             if (item != null)
             {
-                _context.Itens.Remove(item);
+                try
+                {
+                    _context.Itens.Remove(item);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateException ex)
+                {
+                    ViewData["Erro"] = "Esse item não pode ser excluído, pois está sendo utilizado." + ex.GetBaseException();
+                    return View();
+                }
             }
-            
-            await _context.SaveChangesAsync();
+
+
+
+
             return RedirectToAction(nameof(Index));
         }
 
         private bool ItemExists(int id)
         {
-          return (_context.Itens?.Any(e => e.ItemId == id)).GetValueOrDefault();
+            return (_context.Itens?.Any(e => e.ItemId == id)).GetValueOrDefault();
         }
     }
 }
