@@ -34,14 +34,25 @@
                 <span asp-validation-for="Preco" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ImagemPequenaUrl" class="control-label"></label>
-                <input asp-for="ImagemPequenaUrl" class="form-control" />
-                <span asp-validation-for="ImagemPequenaUrl" class="text-danger"></span>
+
+                <label for="ImagemAtual">Imagem Atual</label>
+                <img src="@Model.ImagemUrl" alt="Imagem do Produto Atual" asp-append-version="true">
+
+                <input type="hidden" name="ImagemUrl" value="@Model.ImagemUrl">
             </div>
             <div class="form-group">
-                <label asp-for="ImagemUrl" class="control-label"></label>
-                <input asp-for="ImagemUrl" class="form-control" />
-                <span asp-validation-for="ImagemUrl" class="text-danger"></span>
+                <label for="Imagem">Nova Imagem:</label>
+                <input type="file" class="form-control" name="Imagem" id="Imagem">
+            </div>
+            <div class="form-group">
+                <label for="ImagemAtualc">Imagem Atual curta</label><img src="@Model.ImagemPequenaUrl" alt="Imagem do Produto Atual" asp-append-version="true">
+
+                <input type="hidden" name="ImagemPequenaUrl" value="@Model.ImagemPequenaUrl">
+                 <div class="form-group">
+                <label for="Imagem">Nova Imagem:</label>
+                <input type="file" class="form-control" name="Imagemcurta" id="Imagemcurta">
+            </div>
+
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -68,4 +79,3 @@
 <div>
     <a asp-action="Index">Voltar</a>
 </div>
-

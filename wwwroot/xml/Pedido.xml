@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pedidos>
+  <Item>
+    <PedidoId>4</PedidoId>
+    <ValorTotal>24</ValorTotal>
+    <Itens>
+      <Item>
+        <ItemId>1</ItemId>
+        <Quantidade>2</Quantidade>
+      </Item>
+    </Itens>
+  </Item>
+</Pedidos>
