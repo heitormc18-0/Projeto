@@ -54,3 +54,7 @@ background-color: #0A2D7C;
 .fundo{
   background-image: url("imagens/background.png");
 }
+
+main{
+   min-height: 80vh;
+}

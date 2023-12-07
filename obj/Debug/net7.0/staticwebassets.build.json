@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Brqe06nmduHLXnVBlEjm0uOYmUfesx3WGiVGZq/oBc0=",
+  "Hash": "0oXybKCgkkZJdO3cRRxM/4bY4x2lzBEprCRUYgFORKM=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\Admin.png",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projeto\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "imagens/Admin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\Admin.png"
     },
     {
       "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\background.png",
@@ -170,23 +187,6 @@
       "OriginalItemSpec": "wwwroot\\imagens\\item\\26efd3cf-08f0-4af8-9a24-c2c5c67f18ff..png"
     },
     {
-      "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\4442c284-251a-4c27-85ef-c9ee2fccc369..jpg",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projeto\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "imagens/item/4442c284-251a-4c27-85ef-c9ee2fccc369..jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\item\\4442c284-251a-4c27-85ef-c9ee2fccc369..jpg"
-    },
-    {
       "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\56e82a25-58dd-48ed-9910-40a291029aca..jpg",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
@@ -219,23 +219,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\item\\a4b26a9c-f19c-4375-8758-70be6f125363..jpg"
-    },
-    {
-      "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\a6ec46e3-7679-482c-8023-c08723519aef..jpg",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projeto\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "imagens/item/a6ec46e3-7679-482c-8023-c08723519aef..jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagens\\item\\a6ec46e3-7679-482c-8023-c08723519aef..jpg"
     },
     {
       "Identity": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\cd488840-de20-4213-84f8-703c8bb203b5..png",

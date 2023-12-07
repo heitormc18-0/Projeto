@@ -17,3 +17,6 @@ html {
   min-height: 100%;
 }
 
+input[type="text"]:read-only{
+  background-color: white !important;
+}

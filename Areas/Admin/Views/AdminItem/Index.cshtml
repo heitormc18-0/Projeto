@@ -4,6 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
+<div class="container" style="min-height: 80vh;">
 <h1>Item</h1>
 
 <form method="get" class="form-inline">
@@ -18,6 +19,7 @@ Total de Itens : @Model.TotalRecordCount
 <p>
     <a asp-action="Create">Criar item</a>
 </p>
+<div class="table-responsive">
 <table class="table">
     <thead>
         <tr>
@@ -91,3 +93,5 @@ Total de Itens : @Model.TotalRecordCount
         }
     </tbody>
 </table>
+</div>
+</div>

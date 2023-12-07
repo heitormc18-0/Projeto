@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\Admin.png",
+      "PackagePath": "staticwebassets\\imagens\\Admin.png"
+    },
+    {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\LaBrasa.png",
       "PackagePath": "staticwebassets\\imagens\\LaBrasa.png"
     },
@@ -37,20 +41,12 @@
       "PackagePath": "staticwebassets\\imagens\\item\\26efd3cf-08f0-4af8-9a24-c2c5c67f18ff..png"
     },
     {
-      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\4442c284-251a-4c27-85ef-c9ee2fccc369..jpg",
-      "PackagePath": "staticwebassets\\imagens\\item\\4442c284-251a-4c27-85ef-c9ee2fccc369..jpg"
-    },
-    {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\56e82a25-58dd-48ed-9910-40a291029aca..jpg",
       "PackagePath": "staticwebassets\\imagens\\item\\56e82a25-58dd-48ed-9910-40a291029aca..jpg"
     },
     {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\a4b26a9c-f19c-4375-8758-70be6f125363..jpg",
       "PackagePath": "staticwebassets\\imagens\\item\\a4b26a9c-f19c-4375-8758-70be6f125363..jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\a6ec46e3-7679-482c-8023-c08723519aef..jpg",
-      "PackagePath": "staticwebassets\\imagens\\item\\a6ec46e3-7679-482c-8023-c08723519aef..jpg"
     },
     {
       "Id": "C:\\Dev\\Projeto\\wwwroot\\imagens\\item\\cd488840-de20-4213-84f8-703c8bb203b5..png",

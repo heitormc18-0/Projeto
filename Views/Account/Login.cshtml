@@ -1,29 +1,30 @@
 @model LoginViewModel
 
 <div class="d-flex justify-content-top flex-column" style="min-height: 72vh;">
-      <h4 class="text-center">Login</h4>
-                    <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal col-md-8 mx-auto" role="form">
-                        <hr />
-                        <div asp-validation-summary="All" class="text-danger"></div>
-                        <input type="hidden" asp-for="ReturnUrl" />
-                        <div class="form-group col-md-6 mx-auto">
-                            <label asp-for="UserName" class="col-md-2 control-label"></label>
-                            <div class="">
-                                <input asp-for="UserName" class="form-control" />
-                                <span asp-validation-for="UserName" class="text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="form-group col-md-6 mx-auto">
-                            <label asp-for="Password" class="col-md-2 control-label"></label>
-                            <div class="">
-                                <input asp-for="Password" class="form-control" />
-                                <span asp-validation-for="Password" class="text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="form-group col-md-6 mx-auto">
-                            <div class="col-md-6 mx-auto">
-                                <input type="submit" class="btn btn-success" value="Log in" />
-                            </div>
-                        </div>
-                    </form>
+    <h4 class="text-center">Login</h4>
+    <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal col-md-8 mx-auto"
+        role="form">
+        <hr />
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div class="form-group col-md-6 mx-auto">
+            <label asp-for="UserName" class="col-md-2 control-label"></label>
+            <div class="">
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-6 mx-auto">
+            <label asp-for="Password" class="col-md-2 control-label"></label>
+            <div class="">
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-6 mx-auto align-items-center justify-content-center mt-3">
+            <div class="d-flex justify-content-center">
+                <input type="submit" class="btn btn-primary" value="Login" />
+            </div>
+        </div>
+    </form>
 </div>
